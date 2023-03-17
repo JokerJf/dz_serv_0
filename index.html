@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="modal dis_none">
+        <form action="" class="log">
+            <input name="gibrid" type="text" placeholder="эл. адрес">
+            <input name="nam_fam" type="text" placeholder="Имя и фамилия">
+            <input name="prof_name" type="text" placeholder="Имя пользователя">
+            <input name="password" type="text" placeholder="Пароль">
+            <label>
+                выберите картинру
+                <input class="file" type="file" >
+            </label>
+        </form>
+        <button class="modal_btn">Отправить</button>
+        <div class="text_nazad">У меня есть аккаунт</div>
+    </div>
+    <div class="box_lobby">
+        <div class="icon_img">
+            <img src="img/telefon.png" alt="">
+        </div>
+        <div class="block_2">
+            <div class="registr">
+                <form action="#">
+                    <input class="gibrid" required name="gibrid" type="text" placeholder="имя или эл. адрес">
+                    <input class="password" required name="password" type="text" placeholder="Пароль">
+                    <button name="btn" type="submit" class="btn">Войти</button>
+                </form>
+                <div class="cherta"></div>
+                <div class="reg_text">ИЛИ</div>
+                <div class="contact">
+                    <div class="facebook"></div>
+                    <div class="facebook_text"><a href="#">Войти через Facebook</a></div>
+                </div>
+                <div class="pasw_none"><a href="#">Забыли пароль?</a></div>
+            </div>
+            <div class="now_play">
+                <p>У вас ещё нет аккаунта? <span>Зарегистрироваться</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="stranica dis_none">
+        <header>
+            <button class="btn_1">Выйти</button>
+            <button class="btn_2">Удалить акк</button>
+        </header>
+        <div class="profel">
+            <div class="block_1">
+                <img class="prof_img" src="" alt="">
+                <div class="prof_name"></div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- 
+    ,"scripts": {
+        "server": "json-server -w server/server.json -p 3002"
+      }
+    }
+
+    npm run server 
+-->
+
+
+    <script src="js/mine.js"></script>
+</body>
+
+</html>
